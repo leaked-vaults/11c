@@ -1,0 +1,59 @@
+
+---Not_all_the_stuff_is_in-here-we_deleted_all_instead_of_the_silen_aim_#RipXd
+---Gui_credits_Venyx
+---Made_By_FAEXDLOL_#crew
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
+local venyx = library.new("FORNITE WARE |V1| |Game:Da Hood|",5012544693 )
+
+-- themes
+local themes = {
+Background = Color3.fromRGB(252, 252, 252),
+Glow = Color3.fromRGB(252, 252, 252),
+Accent = Color3.fromRGB(252, 252, 252),
+LightContrast = Color3.fromRGB(252, 252, 252),
+DarkContrast = Color3.fromRGB(252, 252, 252),  
+TextColor = Color3.fromRGB(252, 252, 252)
+}
+
+-- first page
+local page = venyx:addPage("Main", 5012544693)
+local section0 = page:addSection("GUI")
+local section1 = page:addSection("Player")
+
+section0:addKeybind("Toggle Keybind", Enum.KeyCode.LeftControl, function()
+print("Activated Keybind")
+venyx:toggle()
+end, function()
+print("Changed Keybind")
+end)
+
+
+section1:addButton("Silent Aim", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/M3nt5Dad" ))() 
+end)
+
+
+
+
+
+
+
+-- second page
+
+local theme = venyx:addPage("Theme", 5012544693)
+local colors = theme:addSection("Colors")
+
+for theme, color in pairs(themes) do -- all in one theme changer, i know, im cool
+colors:addColorPicker(theme, color, function(color3)
+venyx:setTheme(theme, color3)
+end)
+end
+
+
+local page = venyx:addPage("Credits", 5012544693)
+local section3 = page:addSection("Discord")
+section3:addButton("Copy Discord Invite", function()
+setclipboard("Fortnite Ware |v1| discord.gg/hol")
+end)
+-- load
+venyx:SelectPage(venyx.pages[1], true)

@@ -1,0 +1,10 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
+--local Whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/silentgod145/whitelist/main/whitelist",true))()
+local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
+NotifyLib.prompt('DOTware - C To Lock', 'Loading..', 5)
+NotifyLib.prompt('DOTware', 'gg.hol', 5)
+NotifyLib.prompt('DOTware', 'Leak and ur banned', 5)
+
+
+
+ 

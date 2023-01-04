@@ -1,0 +1,32 @@
+        MAIN SILENT SETS
+             Pred 
+________________________________ 
+        Prediction = 0.120
+        Prediction = 0.361
+ __________________________________
+            Fovs
+        FOV =  5.6     
+        FOV = 12
+        FOV = 26
+        FOV = 40
+__________________________________       
+        AIMING PARTS
+    11cParts  = { 
+   "Head", 
+   "HumanoidRootPart",
+   "LeftLowerLeg",
+   "LeftFoot",
+   "LeftArm",
+   "RightArm",
+   "LowerTorso" }
+__________________________________                       
+       HIT CHANCES
+
+    HitChance = 115
+    HitChance = 90
+    HitChance = 100
+
+__________________________________ 
+      FOV SIDE
+FOVSIDE = 100 
+FOVSIDE = 40
